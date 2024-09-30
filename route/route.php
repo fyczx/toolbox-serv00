@@ -11,7 +11,7 @@
 
 //后台
 Route::rule('admin/:c/:a', 'admin/:c/:a');
-Route::rule('lgguan', function(){
+Route::rule('yuxue', function(){
     return redirect('admin/index/index');
 });
 
